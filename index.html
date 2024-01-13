@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio:Tanashree Gund</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/75a8a9c386.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hello!, I'm<br>DANIEL<span> CRISS</span><br>From Pune,India</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------About--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/user.jpeg" alt="">
+                </div>
+                <div class="about-col2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>I'm a undergraduate student at D.Y.Patil Institute of Technology in Computer Science field.I was born and raised in Ahmednagar.
+                        I have keen interest in Web and Android development.I have completed 6 weeks internship 
+                        at SNB Tech, Pune in Android development.
+                        My passion is travelling.I like to go out and explore the culture, history, the cuisine and various popular places.</p>
+
+                        <div class="tab-title">
+                            <p class="t-links a-link" onclick="opentab('skills')">Skills</p>
+                            <p class="t-links" onclick="opentab('experience')">Experience</p>
+                            <p class="t-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="t-conts active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Developer</span><br>Designing Web/App interfaces</li>
+                                
+                                <li><span>UI/UX</span><br>Interface Designing </li>
+                               
+                                <li><span>App Development</span><br>Building Android/ios Apps</li>
+                            </ul>
+                        </div>
+                        <div class="t-conts" id="experience">
+                            <ul>
+                                <li><span>2022</span><br>Worked On Online Voting System Project</li>
+                                <li><span>2021</span><br>Internship At SNB Tech</li>                              
+                                
+                            </ul>
+                        </div>
+                        <div class="t-conts" id="education">
+                            <ul>
+                                <li><span>2023</span><br>Undergraduate Student At D.Y.Patil Institute of Technology </li>
+                                <li><span>2022</span><br>Diploma At Government Polytechnic</li>
+                                                                                               
+                                <li><span>2019</span><br>SSC Passed</li>
+                            </ul>
+                        </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!--------------Service---------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>High quality, intuitive,consistent design development for users convineince!!</p>
+                    <a href="#">Learn More</a>
+
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design </h2>
+                    <p>Moto is to build user-friendly,meaningful user experience for Apps and Websites</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Fast, Simple, Less Expensive, intuitive Application development for android and ios</p>
+                    <a href="#">Learn More</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------portfoli0---------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/img1.png" alt="">
+                <div class="lay">
+                    <h3>Online Voting System</h3>
+                    <p>Online Voting System fro school and college level.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/img2.png" alt="">
+                <div class="lay">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class ="btnn">See More</a>
+    </div>
+</div>
+
+<!------------------Contact-------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="con-left">
+                <h1 class="subtitle">Contact</h1>
+                <p><i class="fa-solid fa-envelope"></i> tanashreegund@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9388636278</p>
+                <div class="social">
+                    <a href="https://facebook.com"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                </div>
+            </div>
+            <div class="con-right">
+                <p>Click to Download My Resume</p>
+                <a href="images/Gund Tanashree - RESUME.pdf" download class ="btn1">Download</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script>
+        var tablinks=document.getElementsByClassName("t-links");
+        var tabcontss=document.getElementsByClassName("t-conts");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("a-link");
+            }
+            for(tabcont of tabcontss){
+                tabcont.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("a-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+</body>
+</html>
